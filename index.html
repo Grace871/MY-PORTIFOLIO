@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio - Frontend Developer">
+    <title>My Portfolio | Frontend Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">My Portfolio</div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#calculator">Calculator</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="assets/images/profile.jpg" alt="Profile Picture" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22%3E%3Crect fill=%22%23667eea%22 width=%22100%22 height=%22100%22/%3E%3Ctext fill=%22white%22 font-size=%2214%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EProfile Image%3C/text%3E%3C/svg%3E'">
+                </div>
+                <div class="hero-text">
+                    <h1>Hello, I'm <span class="highlight">Grace Ishimwe</span></h1>
+                    <h2 class="role">Frontend Developer</h2>
+                    <p class="tagline">Building modern, responsive, and user-friendly web experiences</p>
+                    <a href="#projects" class="cta-button">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro">
+                        I am a passionate frontend developer currently pursuing my studies in 
+                        <strong>Computer Science, Year 2</strong> at <strong>[Your University Name]</strong>.
+                    </p>
+                    <p>
+                        My journey into web development started with a curiosity about how websites work,
+                        and has grown into a commitment to creating meaningful digital experiences that 
+                        solve real-world problems.
+                    </p>
+                    <div class="career-goal">
+                        <h3>Career Goal</h3>
+                        <p>
+                            To become a skilled full-stack developer specializing in creating accessible, 
+                            performant web applications that make a positive impact on communities, 
+                            particularly in Rwanda and East Africa.
+                        </p>
+                    </div>
+                    <div class="background">
+                        <h3>Background</h3>
+                        <p>
+                            From Musanze, Rwanda, I combine technical skills with an understanding of 
+                            local digital needs. I'm passionate about leveraging technology to solve 
+                            challenges faced by businesses and communities in our region.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">📄</div>
+                    <h3>HTML5</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="85"></div>
+                    </div>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS3</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="80"></div>
+                    </div>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="75"></div>
+                    </div>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="85"></div>
+                    </div>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Git & GitHub</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="70"></div>
+                    </div>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Bootstrap</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="65"></div>
+                    </div>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="E-Commerce Website" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23667eea%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22white%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EProject 1%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Landing Page</h3>
+                        <p class="project-description">
+                            A responsive landing page for a local Rwandan e-commerce platform 
+                            selling agricultural products. Focused on clean design and mobile-first approach.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Flexbox</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">View Code</a>
+                            <a href="#" class="project-link" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2.jpg" alt="Tourism Website" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%2351cf66%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22white%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EProject 2%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Musanze Tourism Guide</h3>
+                        <p class="project-description">
+                            An interactive website showcasing tourist attractions in Musanze, 
+                            including Volcanoes National Park. Features image galleries and booking forms.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS Grid</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Form Validation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">View Code</a>
+                            <a href="#" class="project-link" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project3.jpg" alt="Student Portal" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23ff6b6b%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22white%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EProject 3%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Student Grade Tracker</h3>
+                        <p class="project-description">
+                            A web application for students to track their academic performance, 
+                            calculate GPAs, and visualize their progress across different courses.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Local Storage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">View Code</a>
+                            <a href="#" class="project-link" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <h2 class="section-title">Student GPA Calculator</h2>
+            <p class="section-description">Calculate your GPA based on your course marks</p>
+            
+            <div class="calculator-container">
+                <div class="calculator-card">
+                    <form id="gpa-calculator-form">
+                        <div id="courses-container">
+                            <div class="course-input">
+                                <input type="text" class="course-name" placeholder="Course Name" required>
+                                <input type="number" class="course-marks" placeholder="Marks (0-100)" min="0" max="100" required>
+                                <button type="button" class="remove-course" aria-label="Remove course">×</button>
+                            </div>
+                        </div>
+                        
+                        <div class="calculator-actions">
+                            <button type="button" id="add-course" class="btn-secondary">+ Add Course</button>
+                            <button type="submit" class="btn-primary">Calculate GPA</button>
+                            <button type="button" id="reset-calculator" class="btn-secondary">Reset</button>
+                        </div>
+                    </form>
+
+                    <div id="gpa-result" class="gpa-result hidden">
+                        <h3>Your Results</h3>
+                        <div class="result-display">
+                            <div class="gpa-value">
+                                <span class="label">GPA:</span>
+                                <span id="gpa-value" class="value">0.00</span>
+                            </div>
+                            <div class="gpa-classification">
+                                <span class="label">Classification:</span>
+                                <span id="gpa-classification" class="value">N/A</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grading-system">
+                    <h3>Grading System</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Marks</th>
+                                <th>Grade</th>
+                                <th>Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>90-100</td>
+                                <td>A</td>
+                                <td>4.0</td>
+                            </tr>
+                            <tr>
+                                <td>80-89</td>
+                                <td>B+</td>
+                                <td>3.5</td>
+                            </tr>
+                            <tr>
+                                <td>70-79</td>
+                                <td>B</td>
+                                <td>3.0</td>
+                            </tr>
+                            <tr>
+                                <td>60-69</td>
+                                <td>C</td>
+                                <td>2.5</td>
+                            </tr>
+                            <tr>
+                                <td>50-59</td>
+                                <td>D</td>
+                                <td>2.0</td>
+                            </tr>
+                            <tr>
+                                <td>0-49</td>
+                                <td>F</td>
+                                <td>0.0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv-section">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            
+            <div class="cv-content">
+                <div class="cv-preview">
+                    <h3>CV Preview</h3>
+                    <div class="cv-preview-content">
+                        <div class="cv-header">
+                            <h4>Grace Ishimwe</h4>
+                            <p class="cv-role">Frontend Developer</p>
+                        </div>
+                        
+                        <div class="cv-section">
+                            <h5>Education</h5>
+                            <p><strong>[Your University Name]</strong></p>
+                            <p>Bachelor's in Computer Science</p>
+                            <p>Year 2 | Expected Graduation: 2027</p>
+                        </div>
+                        
+                        <div class="cv-section">
+                            <h5>Skills</h5>
+                            <ul>
+                                <li>HTML5, CSS3, JavaScript</li>
+                                <li>Responsive Web Design</li>
+                                <li>Git & GitHub</li>
+                                <li>Bootstrap Framework</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="cv-section">
+                            <h5>Experience</h5>
+                            <p><strong>Freelance Web Developer</strong></p>
+                            <p>2024 - Present</p>
+                            <ul>
+                                <li>Developed responsive websites for local businesses</li>
+                                <li>Collaborated with clients to deliver custom solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cv-download">
+                    <h3>Download Full CV</h3>
+                    <p>Get a complete copy of my curriculum vitae in PDF format.</p>
+                    <a href="assets/cv/CV_Grace_Ishimwe.pdf" class="download-btn" download>
+                        📥 Download CV (PDF)
+                    </a>
+                    <p class="cv-note">Last Updated: February 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-description">Feel free to reach out for collaborations or just a friendly hello</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:grace.ishimwe@example.com">grace.ishimwe@example.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+250788123456">+250 788 123 456</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://linkedin.com/in/graceishimwe" target="_blank">linkedin.com/in/graceishimwe</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🐙</div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/graceishimwe" target="_blank">github.com/graceishimwe</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Send Message</button>
+                    <div id="form-success" class="success-message hidden">Thank you! Your message has been received.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Grace Ishimwe. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

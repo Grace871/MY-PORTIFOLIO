@@ -1,0 +1,80 @@
+# Sample CV - Grace Ishimwe
+
+## Personal Information
+- **Name**: Grace Ishimwe
+- **Location**: Musanze, Rwanda
+- **Email**: grace.ishimwe@example.com
+- **Phone**: +250 788 123 456
+- **LinkedIn**: linkedin.com/in/graceishimwe
+- **GitHub**: github.com/graceishimwe
+
+## Professional Summary
+Passionate and driven Frontend Developer with strong foundations in HTML5, CSS3, and JavaScript. Currently pursuing Computer Science with a focus on creating accessible, responsive, and user-friendly web applications that solve real-world problems in Rwanda and East Africa.
+
+## Education
+**[Your University Name]**  
+Bachelor's Degree in Computer Science  
+Year 2 | Expected Graduation: 2027  
+Musanze, Rwanda
+
+**Relevant Coursework**:
+- Web Development
+- Data Structures and Algorithms
+- Database Management Systems
+- Software Engineering Principles
+- User Interface Design
+
+## Technical Skills
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Frameworks/Libraries**: Bootstrap
+- **Design**: Responsive Web Design, Mobile-First Development
+- **Tools**: Git, GitHub, VS Code
+- **Concepts**: DOM Manipulation, Form Validation, RESTful APIs
+
+## Projects
+
+### E-Commerce Landing Page
+*HTML, CSS, JavaScript, Flexbox*
+- Developed responsive landing page for local Rwandan e-commerce platform
+- Implemented mobile-first design approach
+- Created interactive product showcase with JavaScript
+
+### Musanze Tourism Guide
+*HTML5, CSS Grid, JavaScript*
+- Built interactive website showcasing Musanze tourist attractions
+- Integrated image galleries and booking forms
+- Implemented form validation for user inputs
+
+### Student Grade Tracker
+*HTML, CSS, JavaScript, Local Storage*
+- Created web application for tracking academic performance
+- Developed GPA calculation system
+- Implemented data persistence using browser localStorage
+
+## Experience
+
+**Freelance Web Developer**  
+*Self-Employed | 2024 - Present*
+- Develop responsive websites for local businesses and organizations
+- Collaborate with clients to understand requirements and deliver solutions
+- Maintain and update existing websites with new features
+
+## Certifications & Training
+- Responsive Web Design Certification
+- JavaScript Algorithms and Data Structures
+- Git & GitHub Version Control
+
+## Languages
+- Kinyarwanda (Native)
+- English (Fluent)
+- French (Intermediate)
+
+## Interests
+- Web Development & Technology
+- Open Source Contribution
+- Community Tech Education
+- Digital Solutions for Local Businesses
+
+---
+
+*This is a sample CV file. Replace this file with your actual CV in PDF format.*
